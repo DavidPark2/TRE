@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey; }
+  background-color: #bcc0c4; }
 
 li {
   float: right; }
@@ -18,5 +18,13 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; }
+
+#logo {
+  width: 70px;
+  float: left;
+  margin-right: 150px; }
+
+.tre {
+  color: #2db052; }
 
 /*# sourceMappingURL=style.css.map */
