@@ -2,20 +2,27 @@
 <html>
   <head>
     <title>{{title}}</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href='/stylesheets/materialize.min.css'>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <header>
-      <div class="nav">
-
-        <ul id="ulmenu">
-          <li class="menu1"><a href="#">Contact Us</a></li>
-          <li class="menu1"><a href="#">About Us</a></li>
-          <li class="menu1"><a href="#">What is TRE</a></li>
-          <li class="menu1"><img id="logo" src="./images/SmallLogo.png" alt="TRE Logo"></li>
-        </ul>
-      </div>
+      <nav>
+        <div class="nav-wrapper grey lighten-1">
+          <img id="logo" src="/images/SmallLogo.png" alt="" class="brand-logo">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="navbuttons" href="#">What is TRE</a></li>
+            <li><a class="navbuttons" href="#">About Us</a></li>
+            <li><a class="navbuttons" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     {{{body}}}
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/javascripts/materialize.min.js">
+    </script>
   </body>
 </html>

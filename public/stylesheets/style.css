@@ -1,47 +1,9 @@
-body {
-  margin: 0;
-  padding: 0; }
-
-#ulmenu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #bcc0c4; }
-
-.menu1 {
-  float: right; }
-
-.menu1 a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 16px;
-  margin-top: 20px;
-  text-decoration: none;
-  font-size: 30px; }
-
 #logo {
-  width: 140px;
-  float: left; }
+  width: 110px;
+  margin-left: 30px; }
 
-.tre {
-  color: #2db052; }
-
-#benefits {
-  list-style-type: none;
-  padding: 0;
-  max-width: 60%; }
-
-.liBenefits1 {
-  background: green;
-  float: left;
-  width: 50%; }
-
-#stoner {
-  width: 20%; }
-
-.row {
-  margin: 0 80px; }
+.navbuttons {
+  font-size: 20px;
+  padding-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
