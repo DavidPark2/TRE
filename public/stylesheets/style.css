@@ -22,4 +22,16 @@ h1 {
 .tre {
   font-size: 2em; }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#map {
+  height: 200px;
+  width: 100%; }
+
+.icon {
+  width: 50px; }
+
 /*# sourceMappingURL=style.css.map */
