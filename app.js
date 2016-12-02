@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var what_is_tre = require('./routes/what_is_tre');
 var about_us = require('./routes/about_us');
+var contact = require('./routes/contact');
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/what_is_tre', what_is_tre);
 app.use('/about_us', about_us);
+app.use('/contact', contact);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
